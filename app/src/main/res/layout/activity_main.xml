@@ -1,0 +1,11 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<!--  Author: Member 4  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="16dp" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+<TextView android:id="@+id/tvTitle" android:text="Handwritten Digit Recognition" android:textSize="20sp" android:layout_marginBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<com.example.handwrittendigitrecognition.DrawingView android:id="@+id/drawingView" android:layout_width="300dp" android:layout_height="300dp" android:background="#000000"/>
+<TextView android:id="@+id/tvResult" android:text="Draw a digit and tap Predict" android:textSize="18sp" android:layout_marginTop="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<LinearLayout android:orientation="horizontal" android:layout_marginTop="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<Button android:id="@+id/btnClear" android:text="Clear" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnPredict" android:text="Predict" android:layout_marginStart="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>
+</LinearLayout>
